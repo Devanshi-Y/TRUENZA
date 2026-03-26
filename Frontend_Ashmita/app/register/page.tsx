@@ -163,7 +163,7 @@ export default function RegisterPage() {
                   </div>
                 )}
                 {blockchainTxHash?.startsWith("simulated") && (
-                  <p className="mt-2 text-xs text-muted-foreground">⛓️ Anchored on Polygon Testnet (simulated for demo)</p>
+        {/*<p className="mt-2 text-xs text-muted-foreground">⛓️ Anchored on Polygon Testnet (simulated for demo)</p>*/}
                 )}
               </div>
 
