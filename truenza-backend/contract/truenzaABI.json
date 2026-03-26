@@ -1,0 +1,43 @@
+[
+  {
+    "inputs": [
+      {"internalType": "string", "name": "productId", "type": "string"},
+      {"internalType": "string", "name": "hash", "type": "string"}
+    ],
+    "name": "registerProduct",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "string", "name": "productId", "type": "string"}
+    ],
+    "name": "reportProduct",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "string", "name": "productId", "type": "string"}
+    ],
+    "name": "getHash",
+    "outputs": [
+      {"internalType": "string", "name": "", "type": "string"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "string", "name": "productId", "type": "string"}
+    ],
+    "name": "reportCount",
+    "outputs": [
+      {"internalType": "uint256", "name": "", "type": "uint256"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
